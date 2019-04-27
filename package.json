@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --open --mode development --host 0.0.0.0 --port 80",
+    "start": "webpack-dev-server --open --mode development --host 0.0.0.0 --port 4000",
     "start-back": "webpack-dev-server --open --mode development",
-    "heroku-postbuild": "yarn install --dev && webpack --mode development",
+    "heroku-prebuild": "yarn add --dev",
+    "heroku-postbuild": "webpack --mode development",
     "build": "webpack --mode development",
     "watch": "webpack -d --watch",
     "json-server": "json-server --watch backend/users.json"
