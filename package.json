@@ -32,7 +32,6 @@
     "react-redux": "^5.1.1",
     "react-router": "^4.3.1",
     "react-router-dom": "^4.3.1",
-    "react-router-native": "^4.3.0",
     "react-saga": "^0.3.1",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0"
